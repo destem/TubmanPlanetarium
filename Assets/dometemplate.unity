@@ -896,8 +896,8 @@ Camera:
   m_GameObject: {fileID: 288491121}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 3
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0.019607844}
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0.6509804}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -2285,8 +2285,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1307933387}
   - component: {fileID: 1307933391}
-  - component: {fileID: 1307933390}
-  - component: {fileID: 1307933389}
   - component: {fileID: 1307933388}
   m_Layer: 0
   m_Name: Main Camera (for audio)
@@ -2317,22 +2315,6 @@ AudioListener:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1307933386}
   m_Enabled: 1
---- !u!124 &1307933389
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 12447538, guid: ad8c859cdcb079740b08e28713ce1010,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1307933386}
-  m_Enabled: 0
---- !u!92 &1307933390
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9248676, guid: ad8c859cdcb079740b08e28713ce1010,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1307933386}
-  m_Enabled: 0
 --- !u!20 &1307933391
 Camera:
   m_ObjectHideFlags: 0
@@ -2342,7 +2324,7 @@ Camera:
   m_GameObject: {fileID: 1307933386}
   m_Enabled: 0
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 3
   m_BackGroundColor: {r: 1, g: 0, b: 1, a: 1}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
@@ -2359,11 +2341,11 @@ Camera:
   field of view: 60
   orthographic: 0
   orthographic size: 100
-  m_Depth: 1
+  m_Depth: 2
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967039
-  m_RenderingPath: -1
+  m_RenderingPath: 1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
@@ -2476,8 +2458,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1322398598}
   - component: {fileID: 1322398601}
-  - component: {fileID: 1322398600}
-  - component: {fileID: 1322398599}
   m_Layer: 0
   m_Name: Right Camera
   m_TagString: Untagged
@@ -2499,22 +2479,6 @@ Transform:
   m_Father: {fileID: 684056260}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!92 &1322398599
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9207086, guid: ad8c859cdcb079740b08e28713ce1010,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1322398597}
-  m_Enabled: 0
---- !u!124 &1322398600
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 12458082, guid: ad8c859cdcb079740b08e28713ce1010,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1322398597}
-  m_Enabled: 1
 --- !u!20 &1322398601
 Camera:
   m_ObjectHideFlags: 0
@@ -2524,7 +2488,7 @@ Camera:
   m_GameObject: {fileID: 1322398597}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 3
   m_BackGroundColor: {r: 1, g: 0, b: 1, a: 1}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
@@ -2541,11 +2505,11 @@ Camera:
   field of view: 90
   orthographic: 0
   orthographic size: 100
-  m_Depth: 1
+  m_Depth: 2
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingPath: -1
+  m_RenderingPath: 1
   m_TargetTexture: {fileID: 8400000, guid: cf6d3a74589ed4fb4bc304fb9a968578, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
@@ -2885,7 +2849,7 @@ Camera:
   m_GameObject: {fileID: 1482995420}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 4
+  m_ClearFlags: 3
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0.02}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
@@ -2902,7 +2866,7 @@ Camera:
   field of view: 90
   orthographic: 1
   orthographic size: 1
-  m_Depth: 0
+  m_Depth: 1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 256
@@ -3427,8 +3391,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1745870761}
   - component: {fileID: 1745870764}
-  - component: {fileID: 1745870763}
-  - component: {fileID: 1745870762}
   m_Layer: 0
   m_Name: Left Camera
   m_TagString: Untagged
@@ -3450,22 +3412,6 @@ Transform:
   m_Father: {fileID: 684056260}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!92 &1745870762
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9277160, guid: ad8c859cdcb079740b08e28713ce1010,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1745870760}
-  m_Enabled: 0
---- !u!124 &1745870763
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 12400244, guid: ad8c859cdcb079740b08e28713ce1010,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1745870760}
-  m_Enabled: 1
 --- !u!20 &1745870764
 Camera:
   m_ObjectHideFlags: 0
@@ -3475,7 +3421,7 @@ Camera:
   m_GameObject: {fileID: 1745870760}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 3
   m_BackGroundColor: {r: 1, g: 0, b: 1, a: 1}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
@@ -3492,11 +3438,11 @@ Camera:
   field of view: 90
   orthographic: 0
   orthographic size: 100
-  m_Depth: 1
+  m_Depth: 2
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingPath: -1
+  m_RenderingPath: 1
   m_TargetTexture: {fileID: 8400000, guid: 89855379973a34d7e8dd1ff87554a6f6, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
@@ -3683,8 +3629,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2002027960}
   - component: {fileID: 2002027963}
-  - component: {fileID: 2002027962}
-  - component: {fileID: 2002027961}
   m_Layer: 0
   m_Name: Bottom Camera
   m_TagString: Untagged
@@ -3706,22 +3650,6 @@ Transform:
   m_Father: {fileID: 684056260}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!92 &2002027961
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9261424, guid: ad8c859cdcb079740b08e28713ce1010,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2002027959}
-  m_Enabled: 0
---- !u!124 &2002027962
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 12416546, guid: ad8c859cdcb079740b08e28713ce1010,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2002027959}
-  m_Enabled: 1
 --- !u!20 &2002027963
 Camera:
   m_ObjectHideFlags: 0
@@ -3731,7 +3659,7 @@ Camera:
   m_GameObject: {fileID: 2002027959}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 3
   m_BackGroundColor: {r: 1, g: 0, b: 1, a: 1}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
@@ -3748,11 +3676,11 @@ Camera:
   field of view: 90
   orthographic: 0
   orthographic size: 100
-  m_Depth: 1
+  m_Depth: 2
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingPath: -1
+  m_RenderingPath: 1
   m_TargetTexture: {fileID: 8400000, guid: 648ed590e4b6642f2b56705451b57605, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
@@ -3879,8 +3807,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2090629902}
   - component: {fileID: 2090629905}
-  - component: {fileID: 2090629904}
-  - component: {fileID: 2090629903}
   m_Layer: 0
   m_Name: Top Camera
   m_TagString: Untagged
@@ -3902,22 +3828,6 @@ Transform:
   m_Father: {fileID: 684056260}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!92 &2090629903
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9242390, guid: ad8c859cdcb079740b08e28713ce1010,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2090629901}
-  m_Enabled: 0
---- !u!124 &2090629904
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 12483072, guid: ad8c859cdcb079740b08e28713ce1010,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2090629901}
-  m_Enabled: 1
 --- !u!20 &2090629905
 Camera:
   m_ObjectHideFlags: 0
@@ -3927,7 +3837,7 @@ Camera:
   m_GameObject: {fileID: 2090629901}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 3
   m_BackGroundColor: {r: 1, g: 0, b: 1, a: 1}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
@@ -3944,11 +3854,11 @@ Camera:
   field of view: 90
   orthographic: 0
   orthographic size: 100
-  m_Depth: 1
+  m_Depth: 2
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingPath: -1
+  m_RenderingPath: 1
   m_TargetTexture: {fileID: 8400000, guid: bf20db3e633d74d8e9333309a58f93b0, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
